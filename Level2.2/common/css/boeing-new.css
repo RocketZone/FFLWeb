@@ -1,0 +1,1296 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+	font-family:"HelveticaNeueW01-55Roma";
+	color: #5f6a72;
+	font-size: 14px;
+	background-color: #0A2240;
+	line-height:1.5em;
+}
+#page_top_button{
+	position:fixed;
+	bottom:100px;
+	right:20px;
+	display:none;
+	z-index:500;	
+}
+.temp{
+	color:#C90003;	
+}
+a{
+	color:#009BDF;	
+}
+h1{
+	font-family:"HelveticaNeueW01-Thin";
+	font-weight:normal;	
+	color:#ffffff;	
+}
+h2,h3,h4{
+	/*font-family:"HelveticaNeueW01-Thin";*/
+	font-family:"HelveticaNeueW01-75Bold";
+	font-weight:normal;	
+	color:#ffffff;	
+}
+h6{
+	font-family:"HelveticaNeueW01-55Roma";
+	font-weight:normal;		
+}
+h5{
+	font-family:"HelveticaNeueW01-75Bold";
+	font-weight:normal;	
+	font-size:14px;
+	color:#ffffff;
+	margin:0 0 5px 0;
+}
+strong {
+	font-family:"HelveticaNeueW01-75Bold";
+	font-weight:normal;	
+}
+.btn:active{
+	box-shadow:none;	
+}
+.logo{
+	margin-left:5px;	
+}
+.bz{
+	margin:30px 20px 0 0;
+	font-size:22px;
+	font-family:"HelveticaNeueW01-45Ligh";
+	font-weight:normal;
+	color:#ffffff;	
+}
+.bz a, .bz a:hover{
+	color:#ffffff;
+	text-decoration:none;	
+}
+.navbar-text{
+	margin-top:30px;
+	margin-bottom:0;
+}
+.wrapper {
+	/* pushing a gap after the content. if we add a margin to the footer at the top, we'll get more "color" above the top. Flip the strategy, just push it down a hair  */ 
+	/* this is the background color default for the rest of the page */ 
+	background-color: #ffffff;
+	border-bottom: none;
+}
+.hero-image{
+	/*background-image:url(../img/hero_plane_nose.jpg);*/
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+	/*min-height:720px;*/
+	position:relative;
+	padding-bottom:144px;
+}
+.interior-header{
+	background-color:#009BDF;	
+	position:relative;
+	color:#fff;
+	font-size:16px;
+	padding-bottom:50px;
+}
+.interior-header.growing-header{
+	background-color:#007165;	
+}
+.interior-header.connected-header{
+	background-color:#0091b5;	
+}
+.interior-header.started-header{
+	background-color:#0096db;	
+}
+.interior-header.informed-header{
+	background-color:#003d4d;	
+}
+
+.landing-text a{
+	color:#ffffff;
+	text-decoration:underline;
+}
+.landing-index h2{
+	font-size:38px;	
+}
+.commuter-header{
+	background-image:url(../img/header-commuter.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.employee-engagement-header{
+	background-image:url(../img/header-employee-engagement.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.employee-environment-header{
+	background-image:url(../img/header-environment.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.policies-header{
+	background-image:url(../img/header-policies.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.go4zero-header{
+	background-image:url(../img/header-go4zero.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.conduct-header{
+	background-image:url(../img/header-code-of-conduct.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.total-compensation-header{
+	background-image:url(../img/header-total-compensation.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.time-keeping-header{
+	background-image:url(../img/header-time-keeping.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.secure-badge-header{
+	background-image:url(../img/header-secure-badge.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.totalaccess-header{
+	background-image:url(../img/header-totalaccess.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.totalaccess-header-ilhe{
+	background-image:url(../img/header-totalaccess-ilhe.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.helpdesk-header{
+	background-image:url(../img/header-helpdesk.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.reach-header{
+	background-image:url(../img/header-reach.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.diversity-header{
+	background-image:url(../img/header-diversity.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.career-development-header{
+	background-image:url(../img/header-career-development.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.employee-development-header{
+	background-image:url(../img/header-employee-development.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.bkn-header{
+	background-image:url(../img/header-bkn.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.external-tech-header{
+	background-image:url(../img/header-external-tech.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.learning-together-header{
+	background-image:url(../img/header-learning-together.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.insite-header{
+	background-image:url(../img/header-insite.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.ethics-header{
+	background-image:url(../img/header-ethics.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.discount-header{
+	background-image:url(../img/header-discount.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+.community-engagement-header{
+	background-image:url(../img/header-community-engagement.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;	
+}
+@media(min-width:768px){
+.landing-header{
+	display:table;
+	margin:20px 0;	
+}
+.landing-header > .landing-icon{
+	display:table-cell;		
+	vertical-align:top;
+	padding-right: 20px;
+	width:150px;
+}
+.landing-header > .landing-text{
+	display:table-cell;	
+	vertical-align:middle;
+}
+.landing-header > .landing-text > h2{
+	margin-top:0;	
+}
+}
+.top-color-bar{
+	height:6px;
+	background-color:#0033a1;	
+}
+.stripe-border{
+	background:url(../img/stripe-border.png) repeat-x;
+	height:122px;
+	width:100%;
+	margin:0;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+.stripe-text{
+	width:100%;
+	margin:0;
+	position:absolute;
+	bottom:0;
+	left:0;	
+	color:#fff;
+}
+.stripe-text p{
+	font-size:14px;	
+}
+@media(min-width:768px){
+.stripe-text p{
+	font-size:18px;	
+}
+}
+.interior-header > .stripe-border{
+	height:20px;	
+}
+.main-content{
+	padding:30px 0;	
+	color:#000;
+	font-size:16px;
+}
+.main-content h5{
+	font-size:16px;
+	margin-top:10px;
+	color:#000;	
+}
+brandlogo {
+	display: inline-block;
+	text-align: left;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+.tagline {
+	margin-top: 1.5em;
+}
+.enlarge-text{
+	font-size:12px;
+	line-height:14px;	
+}
+/*
+@media(min-width:768px){
+.dropdown-menu {
+  left: 50%;
+  right: auto;
+  transform: translate(-50%, 0);
+}
+}
+*/
+/*
+.navbar-collapse{
+	width:100%;	
+}
+.nav > li.dropdown.open { position: static; }
+.nav > li.dropdown.open .dropdown-menu {display:table; width: 100%; left:0; right:0; }
+*/
+.navbar-default{
+	background:none;
+	border:none;
+	border-radius:0;	
+}
+.vid-holder{
+	max-width:640px;
+	margin-bottom:20px;	
+}
+.embed-responsive .video-container {
+	
+  position: absolute;
+ 
+  top: 0;
+  left: 0;
+  bottom: 0;
+  
+  height: 100%;
+  width: 100%;
+  
+  border: 0;
+ /* cursor:pointer!important;*/
+  
+}
+/*
+.embed-responsive .video-container a{
+	position:relative;	
+}
+*/
+
+.img-right-align{
+	float:none;	
+}
+/* due to the full width dropdown menus, we need to set the navbar padding based on media queries */
+@media (min-width: 992px) {
+	#main-navbar{
+	padding-left:8.33333333%;
+	padding-right:8.33333333%;	
+}
+.img-right-align{
+	float:right;	
+}
+}
+.dropdown-menu{
+	background-color:rgba(255,255,255,.97);
+	border-radius:0;
+	border:none;
+	box-shadow:none;
+	padding:20px 0;
+}
+.dropdown-menu li a{
+	padding-top:8px;
+	padding-bottom:8px;	
+}
+li.dropdown-search{
+	padding:8px 20px;
+	width:300px;
+}
+.dropdown-menu.get-started li a:hover{
+	background-color:rgba(0,150,219,0.1);
+}
+.dropdown-menu.get-connected li a:hover{
+	background-color:rgba(0,145,181,0.1);
+}
+.dropdown-menu.get-informed li a:hover{
+	background-color:rgba(0,61,77,0.07);
+}
+.dropdown-menu.get-growing li a:hover{
+	background-color:rgba(0,113,101,0.1);
+}
+.navbar-default .navbar-nav > li > a{
+	color:#ffffff;
+	padding:15px 15px 1px 15px;
+	border-bottom:10px solid transparent;
+}
+.navbar-default .navbar-nav > li > a:not(.nav-search){
+	font-size:18px;
+}
+.navbar-default .navbar-nav > li > a:focus{
+	color:#ffffff;	
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li.active > a:hover{
+	color:#ffffff;
+	background:none;	
+	/*background-color:rgba(218,237,255,.97);*/
+}
+
+.navbar-nav{
+	margin-left:-15px;	
+}
+.navbar-default .navbar-nav > li.active > a{
+	color:#ffffff;
+	background:none;	
+}
+	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
+	.navbar-default .navbar-nav > li.active.open > a, .navbar-default .navbar-nav > li.active.open > a:focus, .navbar-default .navbar-nav > li.active.open > a:hover{
+	color:#ffffff;
+	background:none;
+	border-bottom:10px solid rgba(255,255,255,0.97);
+	/*background-color:rgba(218,237,255,.97);*/
+}
+.navbar-default .navbar-nav > .active > a:focus{
+	color:#ffffff;
+	background:none;
+}
+@media(max-width:767px){
+		.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover{
+	color:#ffffff;
+	background:none;
+	border:none;
+	padding-bottom:8px;
+}
+	.navbar-nav .open .dropdown-menu{
+		background-color:rgba(255,255,255,.97);
+	border-radius:0;
+	border:none;
+	box-shadow:none;
+	padding:20px 0;
+	}
+}
+@media(min-width:768px){
+
+.navbar-default .navbar-nav > li > a > .menu-underline,
+.navbar-default .navbar-nav > .open  > a:hover > .menu-underline,
+.navbar-default .navbar-nav > li.active.open  > a > .menu-underline{
+	margin-top:4px;
+	border-top:transparent;	
+}
+
+.navbar-default .navbar-nav > li.active > a > .menu-underline,
+.navbar-default .navbar-nav > li > a:hover > .menu-underline{
+	margin-top:3px;
+	border-top:1px solid #ffffff;	
+}
+
+
+}
+#xs-search-term-input{
+	margin-left:15px;
+}
+
+.dropdown-icons{
+	margin-bottom:20px;
+	display:table;
+}
+.icon-img{
+	
+	display:table-cell;	
+	vertical-align:middle;
+	padding-right:5px;	
+}
+.icon-text{
+	font-size:16px;
+	display:table-cell;	
+	vertical-align:middle;	
+}
+
+/***************************************
+GENERAL STYLING 
+***************************************/
+ 
+.navbar-brand{
+	height:auto;
+	min-height:50px;
+}
+.brandzone {
+	display: block;
+	clear: both;
+	margin: 0;
+	/* needs a little more space at the top to make it LOOK vertically centered due to the extra whitespace at the bottom of the image file */ 
+	padding-top: 15px;
+	padding-left: 0;
+}
+@media (min-width: 768px) {
+.brandzone {
+	padding-left: 18px;
+}
+
+}
+
+ @media (max-width: 767px) {
+/* for responsive, this will just be a block around the nav */ 
+html {
+	background-color: inherit;
+}
+/* in the extra small view, the rows have no padding
+	 so if you haven't set the content in a COL, there's no padding around the edges
+	 when just using "ROW" so don't do that. use a COL. If we apply padding to the row too, it gets over-padded
+	 */ 
+.row {
+/*
+	padding-left: 15px;
+	padding-right: 15px;
+	*/
+}
+}
+
+
+/***************************************
+SEARCH BAR 
+***************************************/  
+/* navbar form */ 
+.navbar-form {
+	margin-top: 8px;
+	padding:0;
+}
+#nav-search-icon {
+	margin-top: 5px;
+	padding-top:9px; 
+	
+}
+.input-group-btn, .input-group-btn > button{
+	height:34px;	
+}
+#nav-search-form{
+	padding-top:4px; 
+}
+#nav-search-form button{
+	padding-left:6px;
+	padding-right:6px;
+}
+.navbar-right{
+	margin-right: 0!important;
+	}
+.navbar-right a{
+	display:block;	
+}
+.header-search-icon {
+	padding: 0;
+}
+.header-search-input {
+	height: inherit;
+	color: #a5acb0;
+}
+.searchmini {
+	position: relative;
+	float: right;
+	padding: 0 10px;
+	margin-top: 0;
+	margin-right: 5px;
+	margin-bottom: 8px;
+	border: 0;
+	color: #fff;
+	height: 35px;
+}
+.searchmini:hover, .searchmini:active, .searchmini:focus {
+	/*background-color: transparent;*/
+}
+.nav-search{
+	font-size:24px;	
+}
+.navbar-inverse .searchmini:hover, .navbar-inverse .searchmini:focus {
+	background-color: #fff;
+}
+.navbar-default .searchmini:hover, .navbar-default .searchmini:focus {
+	background-color: #fff;
+}
+search_icon, hamburger {
+	display: block;
+}
+search_icon, hamburger {
+	display: block;
+}
+#xs-menu-icon.navbar-toggle {
+	height:35px;
+	margin: 0;
+	border-color: #fff;
+	border: 1px solid #fff;
+	border-radius: 4px 4px 4px 4px;
+}
+#xs-menu-icon .icon-bar {
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+
+/* === <FORM> PLACEHOLDER TEXT STYLING - TO NORMALIZE DEFAULT STYLING */
+/* === SEE boeing.js FOR IE8 FORM PLACEHOLDER POLYFILLS */
+::-webkit-input-placeholder {
+	color: #5B6770;
+}
+::-moz-placeholder {
+	color:#5B6770;
+} /* FF 19+ */
+:-moz-placeholder {
+	color:#5B6770;
+} /* FF 18- */
+:-ms-input-placeholder {
+	color:#5B6770;
+}
+.placeholder { 
+	color: #5B6770; 
+} /* for the polyfill */
+
+
+/***************************************
+HEADER POSITIONING 
+***************************************/
+#main-header {
+	margin-right: 0;
+	margin-left: 0;
+}
+#main-nav-list{
+	margin-left: 0x;
+	}
+#main-header-text .navbar-text {
+	margin-left: 0;
+	margin-right: 0;
+}
+#main-nav-list.navbar-collapse {
+	padding-left: 0;
+    /* if this is set to 0, it adds a scrollbar
+	padding-right: 0; 
+	*/
+	padding-left: 30px;
+	padding-right: 0;
+}
+
+#lg-slider p{
+	white-space:normal;
+	font-size:16px;
+	margin:15px 15px 0 15px;
+}
+#lg-slider p.fullscreen{
+	font-size:14px;
+	margin:5px 15px 0 15px;
+	color:#666;	
+}
+.panel-default .panel-body p.video-title{
+	font-size:16px;
+	line-height:16px;	
+}
+/***************************************
+Breadcrumbs
+***************************************/  
+.breadcrumb {
+	background-color: #fff;
+	margin-top: 15px;
+	margin-bottom: -15px;
+	padding-left: 0;
+}
+.breadcrumb li {
+    margin-right: 1px; /* fix for ie 8 breadcrumb overlapping issue */ 
+}
+/***************************************
+SCROLLBARS ON COLLAPSE NAV
+***************************************/  
+@media (max-width: 768px) {
+/* bootstrap 3 adds scrollbars if the dropdown is longer
+	 than 340px. this kills those scrollbars 
+	 */ 
+.navbar-collapse {
+	max-height: inherit !important;
+	overflow-x: hidden !important;
+}
+}
+
+
+/************************************
+SEARCH
+************************************/
+#xs-search-form {
+	width: 100%;
+}
+#xs-menu-icon {
+}
+/* the search icon is a white button with a transparent search magnifying glass cut into the middle of it. The background is set to a color, which then makes it possible for us to change the color on the fly by only using background color changes rather than an image change. Saves us a few K size on page load */
+#xs-search-icon-transparent{
+	width:22px;
+	height:19px;
+}
+.search-icon-off {
+
+	
+}
+.search-icon-on {
+	
+}
+#xs-search-go-button {
+	margin-left: 10px;
+	margin-top: 8px;
+	margin-bottom: 8px
+}
+#xs-search-term, .search-input {
+	/* setting overflow:hidden shortens the length of the search term input to fill the available space rather than pushing elements off of the page */
+
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	padding: 0
+}
+#xs-search-term h1 {
+	color: #ffffff !important;
+	margin:0;
+}
+#xs-search-term-input {
+	/* this fills the search-term span completely full. if the span surrounding it does not have overflow:hidden applied, then it will shove elements off to the right of the page. */ 
+	width: 100%;
+	margin-top: 8px;
+	margin-bottom: 8px
+}
+#xs-title-text {
+	font-family:"HelveticaNeueW01-45Ligh";
+	text-align: left;
+	width: 100%;
+	font-size: 1.4em;
+}
+#xs-search-button, #xs-search-button2 {
+	/* outline is an accessibility feature that normally we want to leave alone. 
+however, in the case of the search button icon, the icon itself shows its active state
+and the dotted outline sometimes applied by firefox looks obnoxious */ 
+	outline: 0;
+	background:none;
+	font-size:24px;
+	line-height:34px;
+	height:34px;
+	width:34px;
+	padding:0;
+	text-align:center;
+	box-shadow:none;
+}
+#xs-search-button.active, #xs-search-button2.active{
+	box-shadow:none;
+	color:#ccc;	
+}
+.xs-search-btn{
+	padding-top:8px;
+	margin-right:15px;	
+}
+
+/* Personality Zone */ 
+#personality-zone{
+	color:#fff;
+	background-color:#0033a1;
+	}
+#personality-zone h1{
+	color: #fff;
+	}
+
+
+.btn-circle-sm{
+	height:34px;
+	width:34px;
+	border-radius:17px;
+	text-align:center;
+	padding:0;
+	margin-left:15px;
+	background-color:#fff;
+}
+.btn-circle-sm .zmdi{
+	color:#125fa9;
+	font-size:18px;
+	line-height:34px;	
+}
+.btn-circle-xl{
+	height:44px;
+	width:44px;
+	border-radius:22px;
+	text-align:center;
+	padding:0;
+	margin-left:15px;
+	background-color:#fff;
+}
+.btn-circle-xl .zmdi{
+	color:#125fa9;
+	font-size:32px;
+	line-height:44px;	
+}
+.search-xl .form-control{
+	height:44px;
+	font-size:18px;
+	padding-left:10px;
+	padding-right:10px;	
+}
+.landing-search{
+	padding:40px 0 60px 0;	
+}
+.landing-search > h1{
+	margin-bottom:20px;	
+}
+.landing-search p{
+	font-family:"HelveticaNeueW01-45Ligh";
+	color:#ffffff;
+	font-size:18px;
+	line-height:24px;
+	margin-top:20px;	
+}
+.hero-caption{
+	font-family:"HelveticaNeueW01-75Bold";
+	color:#ffffff;
+	text-align:right;
+	font-size:16px;	
+}
+  .ui-autocomplete {
+    max-height: 300px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+  }
+
+@media(min-width:768px){
+	.landing-search{
+	padding:60px 0 100px 0;	
+}
+.btn-circle-xl{
+	height:88px;
+	width:88px;
+	border-radius:44px;
+	text-align:center;
+	padding:0;
+	margin-left:15px;
+	background-color:#fff;
+}
+.btn-circle-xl .zmdi{
+	color:#125fa9;
+	font-size:56px;
+	line-height:88px;	
+}
+.search-xl .form-control{
+	height:88px;
+	font-size:26px;
+	padding-left:25px;
+	padding-right:25px;	
+}	
+}
+/* square off input fields and get rid of borders */
+.form-control{
+	border-radius:0;
+	border:none;
+	box-shadow:none;	
+}
+
+/* multi color bar */
+.color-bar-blue1{
+	height:6px;
+	background-color:#0A2240;
+}
+.color-bar-blue2{
+	height:6px;
+	background-color:#105ea9;
+}
+.color-bar-blue3{
+	height:6px;
+	background-color:#009BDF;
+}
+.color-bar-blue4{
+	height:6px;
+	background-color:#92C0EA;
+}
+.c-blue{
+	color:#009BDF;	
+}
+.outside-header{
+	color:#009bdf;
+	margin:0 0 20px 0;
+}
+/************************************
+PRINT
+************************************/
+ @media print { 
+    a, a:visited {
+        text-decoration: none !important; 
+    }
+    a[href]:after {
+        content: "" !important; 
+    }
+    abbr[title]:after {
+        content: "" !important; 
+    }
+    .ir a:after, a[href^="javascript:"]:after, a[href^="#"]:after {
+        content: "" !important; 
+    }
+    #main-nav-list{
+        display:none !important; 
+    }
+    .footer-wrapper{
+        display:none !important; 
+    }
+    .navbar-right{
+        display:none !important; 
+    }
+    #personality-zone {
+        padding-top: 10px !important;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        /* add the cloud graphic in the header */ 
+        background-image: none !important; 
+        overflow-y: hidden;
+        background-color: none !important;
+        padding-left: 32px !important; 
+    }
+     #sub-page-header {
+        padding-top: 0 !important;
+        margin-bottom: 0 !important;
+        background: none !important; 
+    }
+    #main-header{
+        margin-top: 0 !important; 
+        padding-bottom: 20px !important; 
+    }
+    #main-header-text .navbar-text{
+        margin-top: 0 !important; 
+        padding-left: 21px !important;
+    }
+    #personality-zone h1{
+        font-size: 45px !important;
+        font-weight: 100;
+        display: inline !important;
+
+        text-transform: capitalize !important;
+        color: #009ADD !important; 
+    }
+    .navbar-fullwidth{
+        display: none !important; 
+    }
+    .tagline{
+        margin-top: -15px;
+    }
+}  
+.featured{
+	position:relative;
+	background-color:#009BDF;
+	color:#ffffff;	
+}
+.featured-text{
+	padding:30px 30px 30px 0;
+	font-size:18px;
+	line-height:24px;	
+}
+.featured-text h2{
+	font-size:42px;
+	margin-bottom:30px;	
+}
+.featured-text p{
+	margin-bottom:30px;	
+}
+.featured-text a{
+	color:#fff;	
+}
+.featured-image-bg{
+	position:relative;
+	clear:both;
+	width:100%;
+	/*min-height:250px;*/
+	/*background-color:#374a59;*/
+	overflow:hidden;
+	
+	background-image: url(../img/featured-bg-tile.gif);
+	background-repeat:repeat;
+}
+.featured-image{
+	position:relative;
+	clear:both;
+	width:100%;
+	background-color:transparent;
+	overflow:hidden;
+	
+	background-position:center center;
+	background-repeat:no-repeat;
+	background-size:contain;	
+}
+.cover{
+	background-size:cover;	
+}
+.contain{
+	background-size:contain;	
+}
+.full{
+	background-size:100% auto;	
+}
+@media(min-width:992px){
+	.featured{
+		min-height:200px;	
+	}
+}
+@media(min-width:1300px){
+	.featured{
+		min-height:300px;	
+	}
+	.featured-image{
+		background-size:auto;	
+	}
+}
+.popular-topics{
+	background-color:#dff1ff;
+	padding-bottom:30px;	
+}
+.popular-topics a{
+	color:#5e6a72;	
+}
+.popular-topics h3{
+	font-family:"HelveticaNeueW01-75Bold";
+	color:#009BDF;
+	font-size:24px;
+	margin:70px 0 35px 0;
+}
+.module-icon p{
+	font-size:15px;
+	font-family:"HelveticaNeueW01-75Bold";
+	margin:20px 0;
+}
+@media(min-width:768px){
+	
+	.featured-image-bg{
+		position:absolute;
+		top:0;
+		left:50%;
+		right:0;
+		bottom:0;
+		width:auto;
+	}
+	.featured-image{
+		position:absolute;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+	}		
+}
+.blue-stripes{
+	background:url(../img/blue-stripes.png) repeat-x;
+	height:20px;
+	width:100%;
+}
+.footer{
+	background-color:#0A2240;
+	color:#ffffff;
+	padding:30px 0;	
+}
+.footer a{
+	color:#ffffff;	
+}
+
+/* accordion styles */
+.panel-default{
+	border:none;
+	border-radius:0;
+	box-shadow:none;
+}
+.panel-default > .panel-heading{
+
+	background-color:#009BDF;
+	border:none;
+	color:#ffffff;
+	border-radius:0;
+	padding:0;
+}
+.get-growing-accordions .panel-default > .panel-heading{
+	background-color:#007165;	
+}
+.get-connected-accordions .panel-default > .panel-heading{
+	background-color:#0091b5;	
+}
+.get-started-accordions .panel-default > .panel-heading{
+	background-color:#0096db;	
+}
+.get-informed-accordions .panel-default > .panel-heading{
+	background-color:#003d4d;	
+}
+.growing-bg{
+	background-color:#007165!important;	
+}
+.connected-bg{
+	background-color:#0091b5!important;		
+}
+.started-bg{
+	background-color:#0096db!important;		
+}
+.informed-bg{
+	background-color:#003d4d!important;		
+}
+.panel-title{
+	font-family:"HelveticaNeueW01-75Bold";
+	font-size:16px;
+}
+.panel-title .zmdi{
+	font-size:32px;	
+}
+.panel-default > .panel-heading a{
+	padding:2px 15px 2px 0;
+	display:block;	
+}
+.panel-default > .panel-heading a .icon-img{
+	margin:0;
+	padding:0;	
+}
+.panel-default > .panel-heading a:hover,
+.panel-default > .panel-heading a:focus{
+	text-decoration:none;	
+}
+@media(min-width:768px){
+.panel-default .panel-body{
+	padding-left:41px;
+	padding-right:41px;	
+}
+}
+.panel-default .panel-body p,
+.panel-default .panel-body ul,
+.panel-default .panel-body ol{
+	line-height:26px;
+	margin:0 0 20px 0;	
+}
+.panel-default .panel-body ol{
+	padding-left:16px;	
+}
+.panel-default .panel-body li{
+	margin-bottom:0;	
+}
+ul.no-indent{
+	padding-left:16px;
+	margin-bottom:20px;
+	list-style:disc;
+}
+.panel-default .panel-body ul li ul{
+	padding-left:16px;
+	margin-bottom:0;	
+}
+ul.inline-unstyled{
+	margin:0 0 20px 0;
+	padding:0;	
+}
+ul.inline-unstyled li{
+	list-style:none;
+	display:inline;
+	font-size:24px;
+	padding-right:15px;	
+}
+p.no-break{
+	margin-bottom:0!important;
+}	
+.arrow-right {
+	transform:rotate(0);  
+  	/* Firefox */
+	-moz-transition: all 200ms ease;
+	/* WebKit */
+	-webkit-transition: all 200ms ease;
+	/* Opera */
+	-o-transition: all 200ms ease;
+	/* Standard */
+	transition: all 200ms ease;
+}
+.arrow-right.down{
+	transform:rotate(90deg);
+		
+}
+hr.thick-blue{
+	border-top:3px solid #009BDF;	
+	margin:30px 0;
+}
+.related-links h3{
+		font-family:"HelveticaNeueW01-75Bold";
+	font-weight:normal;	
+	color:#009BDF;
+}
+.related-links a{
+	color:#000;	
+}
+.badge-types h5{
+	color:#000;
+	margin-bottom:15px;
+}
+.badge-headers{
+	margin:30px 0 15px 0;
+}
+
+.badge-types{
+	margin:30px 0;
+}
+@media(min-width:768px){
+	.badge-types{
+	margin:0 0 30px 0;
+}
+}
+.lightbox-item{
+	cursor:pointer;
+	/*border:1px solid transparent;*/
+	/*padding:5px;*/
+	position:relative;
+	margin:10px 0 5px 0;
+}
+.lightbox-item img{
+	background-color:#fff;	
+}
+.lightbox-item img{
+	border:1px solid #dfdfdf;	
+}
+.image-callout{
+	background-color:#0096DE;
+	color:#fff;
+	width:30px;
+	height:30px;
+	border-radius:15px;
+	text-align:center;
+	font-size:16px;
+	line-height:30px;
+	position:absolute;
+	bottom:10px;
+	right:10px;	
+}
+.vid-play-icon{
+	position:absolute;
+	width:40px;
+	height:40px;
+	top:50%;
+	left:50%;
+	margin:-20px 0 0 -20px;
+	color:#009bdf;	
+}
+/*
+.lightbox-item:hover{
+	border:1px solid #0096db;
+}
+*/
+.panel-default .panel-body .lightbox-item p{
+	font-size:16px;
+	line-height:23px;
+	margin:18px 0;	
+}
+.image-description{
+	color:#ff9c00;
+}
+.modal.carousel {
+  position: fixed;
+}
+.carousel-control.right, .carousel-control.left{
+	background:none;
+}
+/************************************
+BREAKPOINTS REFERENCE
+************************************/
+/*    MEDIA QUERY BREAKPOINTS. MOBILE UP: START SMALLEST TO LARGEST   */
+@media (max-width:320px) {
+}
+/* --------------------------------------------------------------- */
+ @media (min-width:321px) and (max-width:481px) {
+/* add styles here */
+}
+/* --------------------------------------------------------------- */
+ @media (max-width:767px) {
+/* add styles here */
+}
+/* --------------------------------------------------------------- */
+ @media (min-width:768px) {
+/* add styles here */
+}
+/* --------------------------------------------------------------- */
+ @media (min-width:768px)and (max-width: 991px) {
+/* add styles here */
+}
+/* --------------------------------------------------------------- */
+ @media (min-width:992px)and (max-width: 1200px) {
+/* add styles here */
+}
+
+ 
+ 
+ 
