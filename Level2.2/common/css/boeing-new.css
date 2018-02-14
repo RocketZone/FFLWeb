@@ -1,7 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 body {
-	font-family:"HelveticaNeueW01-55Roma";
+	font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	color: #5f6a72;
 	font-size: 14px;
 	background-color: #0A2240;
@@ -20,6 +20,11 @@ body {
 a{
 	color:#009BDF;	
 }
+
+db{
+	color:#0038a9;
+}
+
 h1{
 	font-family:"HelveticaNeueW01-Thin";
 	font-weight:normal;	
@@ -36,7 +41,7 @@ h6{
 	font-weight:normal;		
 }
 h5{
-	font-family:"HelveticaNeueW01-75Bold";
+	font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
 	font-weight:normal;	
 	font-size:14px;
 	color:#ffffff;
@@ -381,11 +386,11 @@ brandlogo {
 }
 }
 .dropdown-menu{
-	background-color:rgba(255,255,255,.97);
-	border-radius:0;
-	border:none;
-	box-shadow:none;
-	padding:20px 0;
+	background-color: #D0D0D0;
+	border-radius: 0;
+	border: thin dashed #736F6F;
+	box-shadow: none;
+	padding: 20px 0;
 }
 .dropdown-menu li a{
 	padding-top:8px;
@@ -408,7 +413,7 @@ li.dropdown-search{
 	background-color:rgba(0,113,101,0.1);
 }
 .navbar-default .navbar-nav > li > a{
-	color:#ffffff;
+	color:#777;
 	padding:15px 15px 1px 15px;
 	border-bottom:10px solid transparent;
 }
@@ -420,7 +425,7 @@ li.dropdown-search{
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li.active > a:hover{
-	color:#ffffff;
+	color:#333333;
 	background:none;	
 	/*background-color:rgba(218,237,255,.97);*/
 }
@@ -429,7 +434,7 @@ li.dropdown-search{
 	margin-left:-15px;	
 }
 .navbar-default .navbar-nav > li.active > a{
-	color:#ffffff;
+	color:#777;
 	background:none;	
 }
 	.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:focus, .navbar-default .navbar-nav > .open > a:hover,
@@ -1091,7 +1096,19 @@ PRINT
 	background-color:#0091b5;	
 }
 .get-started-accordions .panel-default > .panel-heading{
-	background-color:#0096db;	
+	background-color:#0038a9;	
+}
+.get-started-accordions-DB .panel-default > .panel-heading{
+	background-color:#0038a9;	
+}
+.get-started-accordions-LB .panel-default > .panel-heading{
+	background-color:#0077a2;	
+}
+.get-started-accordions-DG .panel-default > .panel-heading{
+	background-color:#0f5135;	
+}
+.get-started-accordions-LG .panel-default > .panel-heading{
+	background-color:#4a880d;	
 }
 .get-informed-accordions .panel-default > .panel-heading{
 	background-color:#003d4d;	
@@ -1109,7 +1126,19 @@ PRINT
 	background-color:#003d4d!important;		
 }
 .panel-title{
+	font-family:Gotham, 'Helvetica Neue', Helvetica, Arial, 'sans-serif';
+	font-size:16px;
+}
+.panel-title-HN75B{
 	font-family:"HelveticaNeueW01-75Bold";
+	font-size:16px;
+}
+.panel-title-HN55Roman{
+	font-family:"HelveticaNeueW01-55Roman";
+	font-size:16px;
+}
+.panel-title-HN45Light{
+	font-family:"HelveticaNeueW01-45Light";
 	font-size:16px;
 }
 .panel-title .zmdi{

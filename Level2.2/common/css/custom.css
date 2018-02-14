@@ -62,7 +62,7 @@ button.btn:before
 }*/
 
 p.padding {padding-bottom: 8px;}
-p, li { color: #5b6770 }
+p, li { color: #333333 }
 ul { padding: 0 0 0 30px }
 h1 a, h2 a, h3 a { color: #0033a1 }
 #accordion { margin: 1.5em 0 2em }

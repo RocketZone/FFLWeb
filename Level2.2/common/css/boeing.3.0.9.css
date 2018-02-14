@@ -43,7 +43,7 @@ NAV BAR
 .navbar-inverse .navbar-brand h1 { font-size: .8em; color: #fff; margin: 0; font-weight: 400; }
 .navbar-inverse .navbar-text { color: inherit; }
 /* dropdown menu */ 
-#main-nav-list .nav .dropdown-menu > li, #main-nav-list .nav .dropdown-menu > li > a { color: #a3aaae; text-align: left; }
+#main-nav-list .nav .dropdown-menu > li, #main-nav-list .nav .dropdown-menu > li > a { color: #333333; text-align: left; }
 #main-nav-list .nav .dropdown-menu > li > a:focus, #main-nav-list .nav .dropdown-menu > li > a:hover { color: #3361B8; }
 .dropdown-menu { background-color: #fff; }
 /* border on items in dropdown */ 
@@ -259,7 +259,11 @@ SUB PAGES
 /************************************
 ACCORDION
 ************************************/	
-.panel-title > a { color: #096bdf; }
+.panel-title-LB > a { color: #0077a2; }
+.panel-title-BD > a { color: #0038a9; }
+.panel-title-LG > a { color: #4a880d; }
+.panle-title-DG > a { color: #0f5135; }
+
 /************************************
 MULTI LEVEL DROP DOWN MENU
 ************************************/	
